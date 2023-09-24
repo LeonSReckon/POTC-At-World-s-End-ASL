@@ -53,11 +53,6 @@ start
 	return vars.LvlStorage.Contains(current.lvl) && old.Load == 1 && current.Load == 0;
 }
 
-onStart
-{
-    vars.reset_vars();
-}
-
 split
 {
 	if(settings ["New Story"]){
